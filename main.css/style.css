@@ -1,0 +1,203 @@
+.flex-container {
+  margin: 0 auto;
+  padding: 0;  
+  max-width: 1440px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+p {
+    color:hsl(300, 43%, 22%);
+    font-weight: 500;
+    text-align: center;
+}
+.content {
+    width: 21rem;
+    height: 35vh;
+    border: none;
+    margin-left: 9rem; 
+}
+
+.paragraph {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    max-width: 1440px;
+    margin-top: 5rem;
+    
+}
+
+#split {
+    
+    
+    width: 50rem;
+    height: 39vh;
+    gap: .5rem;
+    
+    
+    
+    
+    
+}
+.review {
+    border: none;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+    margin-top: .5rem;
+    border-radius: 1rem; 
+    width: 38rem;
+    height: 4rem;
+    
+    
+    
+    
+}
+.review1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+    
+    
+
+.review2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    
+}
+
+
+.review3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+  }
+  
+.border-box {
+    border: none;
+    border-radius: .5rem;
+    background-color: hsl(300, 43%, 22%);
+    width: 20rem;
+    height: 15rem;
+    margin: 1rem;
+    padding: 1rem;
+    
+    
+}
+
+.Aprasymas {
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    font-family: 'Spartan', sans-serif;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+}
+img, .people {
+    border-radius: 50%;
+    max-width: 3rem;
+    padding: .5rem;
+    
+    }
+
+.people {
+    padding: 10rem;
+}
+
+.box3 {
+    margin-top: 6%;
+}
+.box2 {
+    margin-top: 3%;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+    font-family: 'Spartan', sans-serif;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+    font-family: 'Spartan', sans-serif;
+}
+.column {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+h3 {
+    margin-left: 1rem;
+}
+
+
+.attribution {
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  @media only screen and (max-width: 600px) {
+      .row {
+         
+         display: flex;
+         flex-direction: column;
+         margin: 0 auto;
+          
+      }
+      .border-box {
+          width: 85%;
+      }
+      .box1 {
+          margin-top: 4rem;
+      }
+      .content {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          }
+      .review {
+          
+           width: 85%;
+           margin-left: auto;
+           margin-right: auto;
+           padding: 1rem;
+           font-size: .9rem;
+           
+           
+      }
+      .split {
+          margin-right: 5%;
+          gap: .5rem;
+          
+
+      }
+      
+  }
+
+
